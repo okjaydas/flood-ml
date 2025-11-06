@@ -1,0 +1,17 @@
+name: flood-classification
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - scikit-learn
+  - numpy
+  - joblib
+  - pip
+  - pip:
+    - azure-iot-device
+  - flask
+  - python-dotenv
+  - matplotlib
+  - seaborn
